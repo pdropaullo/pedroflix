@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 999;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.menus {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: -100px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    font-size: 40px;
+}
+
+.logo>a,
+.menus>a,
+.icons>a {
+    display: flex;
+    margin: 10px;
+    color: white;
+}
+
+#perfil {
+    border-radius: 50px;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding-top: 80px;
+}
+
+header>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.welcome {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+}
+
+#down {
+    font-size: 50px;
+    color: black;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.pesquisa {
+    width: 500px;
+    height: 30px;
+    font-size: 20px;
+    padding-left: 2px;
+    border-radius: 10px;
+}
+
+.reset {
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    display: none;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    place-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+.poster {
+    width: 100%;
+    height: 100%;
+}
+
+.btn {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.vermais {
+    width: 130px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    position: static;
+    bottom: 1%;
+    display: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.show {
+    display: block;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pedro {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
+}
